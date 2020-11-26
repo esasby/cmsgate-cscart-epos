@@ -1,0 +1,1 @@
+{$configForm->generate() nofilter}

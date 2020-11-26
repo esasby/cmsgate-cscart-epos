@@ -1,0 +1,25 @@
+{
+  "name": "esas/cmsgate-cscart-epos",
+  "description": "EPOS (ERIP Belarus) CS-Cart payment gateway integration",
+  "require": {
+    "php": ">= 5.6.0",
+    "esas/cmsgate-epos-lib": "~v1.13.4",
+    "esas/cmsgate-cscart-lib": "~v1.2.3"
+  },
+  "authors": [
+    {
+      "name": "esas",
+      "email": "support@hutkigrosh.com",
+      "homepage": "https://hutkigrosh.by"
+    }
+  ],
+  "config": {
+    "vendor-dir": "src/app/addons/epos/lib/vendor"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Esas\\Epos\\": ""
+    }
+  }
+}

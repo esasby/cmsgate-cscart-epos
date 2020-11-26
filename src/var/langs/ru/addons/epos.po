@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::epos"
+msgid "Epos"
+msgstr "Epos"
+
+msgctxt "Addons::description::Epos"
+msgid "Payment module to add order bills to ERIP"
+msgstr "Платежный модуль для приема платежей c помощью системы ЕРИП"

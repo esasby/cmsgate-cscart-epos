@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>epos</id>
+    <name>epos</name>
+    <copyright>ESaS OOO</copyright>
+    <authorEmail>epos@esas.by</authorEmail>
+    <version>1.0.0</version>
+    <default_language>ru</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <dependencies></dependencies>
+    <compatibility>
+        <core_version>
+            <min>4.2.0</min>
+        </core_version>
+
+        <php_version>
+            <!-- The minimum PHP version required. -->
+            <min>5.3.6</min>
+        </php_version>
+
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+            <!-- A required PHP extension with a specific version. -->
+            <json>
+                <supported>Y</supported>
+            </json>
+        </php_extensions>
+    </compatibility>
+    <functions>
+        <item for="install">fn_epos_install</item>
+        <item for="uninstall">fn_epos_uninstall</item>
+    </functions>
+</addon>
